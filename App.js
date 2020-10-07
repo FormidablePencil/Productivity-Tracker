@@ -13,7 +13,6 @@ export default function App() {
 
 
   return (
-
     <AppContext.Provider value={{ calculatedTime, setcalculatedTime }}>
       <NavigationContainer>
         <Tab.Navigator>
